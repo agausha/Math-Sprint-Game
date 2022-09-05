@@ -1,0 +1,11 @@
+Math Sprint Game
+
+This game highlight the usage of timing events as well as procedurally generating random correct & incorrect Math equations.
+
+Instructions
+
+- You have to select amount of questions to start and choose correct or incorrect answer
+- The equations automatically scroll down to the next one as you select the answer
+- The timer will stop when you select the last answer and take you to the score page
+- You have 0.5s penality score for every incorrect answer
+- Your best score is store in LocalStorage
