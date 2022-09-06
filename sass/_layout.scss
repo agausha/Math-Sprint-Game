@@ -36,3 +36,17 @@
     margin-top: 35px;
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SAMRTPHONE (VERTICAL)
+@media screen and (max-width: 500px) {
+  .game-container {
+    width: 100%;
+    margin-top: 0;
+    border: none;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+}
