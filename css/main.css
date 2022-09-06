@@ -58,6 +58,7 @@ label {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-size: 18px;
 }
 
 .game-container {
