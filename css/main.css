@@ -33,4 +33,5 @@ body {
   color: hsl(0deg, 0%, 100%);
   font-family: "Oxanium", sans-serif;
   font-size: 24px;
+  text-shadow: 1px 2px 2px hsl(0deg, 0%, 0%);
 }/*# sourceMappingURL=main.css.map */
