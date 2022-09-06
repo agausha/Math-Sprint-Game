@@ -50,6 +50,8 @@ label {
   span {
     margin: 0;
 
-    &:last-child {}
+    &:last-child {
+      font-size: 24px;
+    }
   }
 }
