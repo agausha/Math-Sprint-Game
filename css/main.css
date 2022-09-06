@@ -285,4 +285,8 @@ button:active {
   font-size: 100px;
   margin: 0;
   color: hsl(115deg, 98%, 31%);
+}
+
+.base-time {
+  margin-top: 100px;
 }/*# sourceMappingURL=main.css.map */
