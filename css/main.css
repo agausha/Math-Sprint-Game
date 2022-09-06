@@ -39,4 +39,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  margin: 5px auto 10px;
 }/*# sourceMappingURL=main.css.map */
