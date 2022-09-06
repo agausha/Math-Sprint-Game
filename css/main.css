@@ -8,4 +8,5 @@ body {
   font-family: "PT Mono", sans-serif;
   overflow: hidden;
   display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
