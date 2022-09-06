@@ -85,4 +85,6 @@ button {
   width: 40%;
 }
 
-.wrong {}
+.wrong {
+  background: $color-primary-danger;
+}
