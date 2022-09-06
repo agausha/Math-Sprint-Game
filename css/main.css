@@ -112,6 +112,7 @@ label {
 
 .item {
   display: flex;
+  align-items: baseline;
 }
 
 .game-container {
