@@ -70,6 +70,22 @@ label {
   font-size: 24px;
 }
 
+@media screen and (max-width: 500px) {
+  .selection-container {
+    top: 100px;
+  }
+  .radio-container {
+    width: 93%;
+    margin: 15px;
+  }
+  label {
+    font-size: 1.7rem;
+  }
+  .best-score {
+    font-size: 1rem;
+    left: 245px;
+  }
+}
 .game-container {
   border: 1px solid hsl(0deg, 0%, 0%);
   box-shadow: 0 10px 20px -5px hsla(0deg, 0%, 0%, 0.5);

@@ -55,3 +55,25 @@ label {
     }
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SAMRTPHONE (VERTICAL)
+@media screen and (max-width: 500px) {
+  .selection-container {
+    top: 100px;
+  }
+
+  .radio-container {
+    width: 93%;
+    margin: 15px;
+  }
+
+  label {
+    font-size: 1.7rem;
+  }
+
+  .best-score {
+    font-size: 1rem;
+    left: 245px;
+  }
+}
