@@ -272,4 +272,5 @@ button:active {
   width: 100%;
   height: 90px;
   display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
