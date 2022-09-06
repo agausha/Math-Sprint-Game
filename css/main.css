@@ -157,6 +157,7 @@ label {
 button {
   cursor: pointer;
   height: 50px;
+  border-radius: 5px;
 }
 
 .game-container {
