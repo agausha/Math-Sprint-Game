@@ -128,6 +128,7 @@ label {
 
 .selected-item {
   background: hsl(210deg, 100%, 56%);
+  position: fixed;
 }
 
 .game-container {
