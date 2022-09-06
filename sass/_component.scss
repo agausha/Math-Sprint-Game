@@ -77,3 +77,11 @@ label {
     left: 245px;
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: SAMRTPHONE 
+@media screen and (max-width: 376px) {
+  .best-score {
+    left: 232px;
+  }
+}
