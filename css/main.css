@@ -1,1 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oxanium|PT+Mono&display=swap");/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Oxanium|PT+Mono&display=swap");
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */

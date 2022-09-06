@@ -11,3 +11,7 @@ $color-primary-bg-main: hsl(0, 0%, 91%);
 $color-primary-bg-game: hsla(0, 0%, 100%, 0.5);
 $color-primary-black: hsl(0, 0%, 0%);
 $color-box-shadow: hsla(0, 0%, 0%, 0.5);
+
+* {
+  box-sizing: border-box;
+}
