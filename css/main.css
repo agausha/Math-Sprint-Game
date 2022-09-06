@@ -259,4 +259,7 @@ button:active {
   .header {
     font-size: 1.2rem;
   }
+}
+.score-container {
+  height: 600px;
 }/*# sourceMappingURL=main.css.map */
