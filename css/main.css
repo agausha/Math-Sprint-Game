@@ -275,4 +275,8 @@ button:active {
   justify-content: center;
   position: relative;
   top: -30px;
+}
+
+.title {
+  font-size: 45px;
 }/*# sourceMappingURL=main.css.map */
