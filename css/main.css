@@ -188,6 +188,7 @@ button:active {
 .start,
 .play-again {
   width: 90%;
+  background: hsl(210deg, 100%, 56%);
 }
 
 .game-container {
