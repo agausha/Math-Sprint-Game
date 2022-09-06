@@ -7,4 +7,5 @@ body {
   margin: 0;
   font-family: "PT Mono", sans-serif;
   overflow: hidden;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
