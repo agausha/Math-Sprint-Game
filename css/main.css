@@ -26,4 +26,8 @@ body {
       -ms-user-select: none;
           user-select: none;
   margin-top: 100px;
+}
+
+.header {
+  background: hsl(210deg, 100%, 56%);
 }/*# sourceMappingURL=main.css.map */
