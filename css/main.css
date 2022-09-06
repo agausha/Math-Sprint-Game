@@ -161,6 +161,7 @@ button {
   font-size: 25px;
   font-family: "Oxanium", sans-serif;
   color: hsl(0deg, 0%, 100%);
+  border: none;
 }
 
 .game-container {
