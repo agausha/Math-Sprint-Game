@@ -28,3 +28,11 @@
   margin: 5px auto 10px;
   height: 600px;
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LAPTOP
+@media screen and (max-width: 1800px) {
+  .game-container {
+    margin-top: 35px;
+  }
+}

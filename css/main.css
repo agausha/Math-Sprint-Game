@@ -44,4 +44,10 @@ body {
 .card {
   margin: 5px auto 10px;
   height: 600px;
+}
+
+@media screen and (max-width: 1800px) {
+  .game-container {
+    margin-top: 35px;
+  }
 }/*# sourceMappingURL=main.css.map */
