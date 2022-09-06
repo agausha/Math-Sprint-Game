@@ -149,6 +149,7 @@ label {
   height: 90px;
   background: hsl(0deg, 0%, 0%);
   display: flex;
+  justify-content: center;
 }
 
 .game-container {
