@@ -75,5 +75,7 @@ button {
     filter: brightness(110%);
   }
 
-  &:active {}
+  &:active {
+    transform: scale(0.99);
+  }
 }
