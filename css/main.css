@@ -21,4 +21,8 @@ body {
   height: 750px;
   position: relative;
   background: hsla(0deg, 0%, 100%, 0.5);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }/*# sourceMappingURL=main.css.map */
