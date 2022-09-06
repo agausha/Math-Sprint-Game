@@ -47,6 +47,7 @@ label {
 
 .selected-label {
   background: hsl(210deg, 100%, 56%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 .game-container {
