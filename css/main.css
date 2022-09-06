@@ -52,6 +52,7 @@ label {
 
 .best-score {
   position: relative;
+  top: -100px;
 }
 
 .game-container {
