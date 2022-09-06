@@ -49,5 +49,7 @@ label {
 
   span {
     margin: 0;
+
+    &:last-child {}
   }
 }
