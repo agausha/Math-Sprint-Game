@@ -59,6 +59,9 @@ label {
   justify-content: center;
   text-align: center;
   font-size: 18px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .game-container {
