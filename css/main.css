@@ -160,6 +160,7 @@ button {
   border-radius: 5px;
   font-size: 25px;
   font-family: "Oxanium", sans-serif;
+  color: hsl(0deg, 0%, 100%);
 }
 
 .game-container {
