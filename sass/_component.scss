@@ -10,4 +10,6 @@ input[type="radio"] {
   z-index: 2;
 }
 
-.selection-container {}
+.selection-container {
+  position: relative;
+}
