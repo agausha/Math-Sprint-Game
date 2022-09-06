@@ -185,6 +185,11 @@ button:active {
   background: hsl(115deg, 98%, 31%);
 }
 
+.start,
+.play-again {
+  width: 90%;
+}
+
 .game-container {
   border: 1px solid hsl(0deg, 0%, 0%);
   box-shadow: 0 10px 20px -5px hsla(0deg, 0%, 0%, 0.5);
