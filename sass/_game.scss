@@ -71,5 +71,7 @@ button {
   border: none;
   outline: none;
 
-  &:hover {}
+  &:hover {
+    filter: brightness(110%);
+  }
 }
