@@ -113,6 +113,7 @@ label {
 .item {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .game-container {
