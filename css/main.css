@@ -265,4 +265,5 @@ button:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
