@@ -264,4 +264,5 @@ button:active {
   height: 600px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
