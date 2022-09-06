@@ -178,6 +178,7 @@ button:active {
 
 .wrong {
   background: hsl(0deg, 81%, 46%);
+  margin-right: 25px;
 }
 
 .game-container {
