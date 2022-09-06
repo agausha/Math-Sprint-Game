@@ -130,6 +130,7 @@ label {
   background: hsl(210deg, 100%, 56%);
   position: fixed;
   top: 380px;
+  z-index: -1;
 }
 
 .game-container {
