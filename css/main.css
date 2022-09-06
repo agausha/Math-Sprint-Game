@@ -103,6 +103,7 @@ label {
 
 .item-container {
   height: 552px;
+  overflow-y: scroll;
 }
 
 .game-container {
