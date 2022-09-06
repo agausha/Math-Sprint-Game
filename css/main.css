@@ -126,6 +126,10 @@ label {
   opacity: 0.5;
 }
 
+.selected-item {
+  background: hsl(210deg, 100%, 56%);
+}
+
 .game-container {
   border: 1px solid hsl(0deg, 0%, 0%);
   box-shadow: 0 10px 20px -5px hsla(0deg, 0%, 0%, 0.5);

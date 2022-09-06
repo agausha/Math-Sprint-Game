@@ -33,4 +33,6 @@
   opacity: 0.5;
 }
 
-.selected-item {}
+.selected-item {
+  background: $color-primary-select;
+}
