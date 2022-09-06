@@ -108,3 +108,19 @@ button {
   user-select: none;
   cursor: pointer;
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SAMRTPHONE (VERTICAL)
+@media screen and (max-width: 500px) {
+  .selected-item {
+    top: 345px;
+  }
+
+  .countdown {
+    margin-top: 60%;
+  }
+
+  .selection-footer {
+    top: 183px;
+  }
+}
