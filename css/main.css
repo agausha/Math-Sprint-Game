@@ -93,6 +93,7 @@ label {
 }
 .height-240 {
   height: 240px;
+  width: 100%;
 }
 
 .game-container {
