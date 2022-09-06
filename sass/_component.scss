@@ -31,4 +31,6 @@ label {
   font-size: 30px;
 }
 
-.selected-label {}
+.selected-label {
+  background: $color-primary-select;
+}
