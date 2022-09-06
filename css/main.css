@@ -262,4 +262,5 @@ button:active {
 }
 .score-container {
   height: 600px;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
