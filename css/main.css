@@ -266,4 +266,8 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.score-footer {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
