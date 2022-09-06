@@ -132,6 +132,7 @@ label {
   top: 380px;
   z-index: -1;
   width: 529px;
+  height: 80px;
 }
 
 .game-container {
