@@ -26,6 +26,7 @@ input[type=radio] {
 
 .selection-container {
   position: relative;
+  top: 65px;
 }
 
 .game-container {
