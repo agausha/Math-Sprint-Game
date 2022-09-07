@@ -91,6 +91,8 @@ function populateGamePage() {
    // Selected Item
    const selectedItem = document.createElement('div');
    selectedItem.classList.add('selected-item');
+   // Append
+  itemContainer.append(topSpacer, selectedItem);
 }
 
 
