@@ -20,6 +20,7 @@ const playAgainBtn = document.querySelector('.play-again');
 
 // Equations
 let questionAmount = 0;
+let equationsArray = [];
 
 // Displays Game Page
 function showGamePage() {
