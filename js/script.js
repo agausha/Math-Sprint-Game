@@ -93,6 +93,10 @@ function populateGamePage() {
    selectedItem.classList.add('selected-item');
    // Append
   itemContainer.append(topSpacer, selectedItem);
+
+  // Create Equations, Build Elements in DOM
+  createEquations();
+  equationsToDOM();
 }
 
 
