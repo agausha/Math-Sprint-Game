@@ -21,6 +21,9 @@ const playAgainBtn = document.querySelector('.play-again');
 // Equations
 let questionAmount = 0;
 
+// Navigate from Splash Page to CountdownPage to Game Page
+function showCountdown() {}
+
 // Get the value from selected radio button
 function getRadioValue() {
   let radioValue;
