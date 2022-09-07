@@ -34,7 +34,9 @@ let finalTimeDisplay = '0.0';
 let valueY = 0;
 
 // Stop Timer, Process Results, go to Score Page
-function checkTime() {}
+function checkTime() {
+  console.log(timePlayed);
+}
 
 // Add a tenth of a second to timePlayed
 function addTime() {
