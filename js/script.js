@@ -35,6 +35,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Check Local Storage for Best Scores, Set bestScoreArray
+function getSavedBestScores() {}
+
 // Update Best Score Array
 function updateBestScore() {
   bestScoreArray.forEach((score, index) => {
