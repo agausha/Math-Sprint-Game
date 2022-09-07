@@ -36,6 +36,20 @@ let valueY = 0;
 // Stop Timer, Process Results, go to Score Page
 function checkTime() {
   console.log(timePlayed);
+  if (playerGuessArray.length == questionAmount) {
+    clearInterval(timer);
+    // Check for wrong guess, add penaltyTime
+    equationsArray.forEach((equation, index) => {
+      if (equation.evaluated === playerGuessArray[index]) {
+        // Correct Guess, No Penalty
+      } else {
+        // Incorrect Guess, Add Penalty
+        penaltyTime += 0.5;
+      }
+    });
+    finalTime = timePlayed + penaltyTime;
+    console.log('time:', timePlayed, 'penalty:', penaltyTime, 'final:', finalTime);
+  }
 }
 
 // Add a tenth of a second to timePlayed
