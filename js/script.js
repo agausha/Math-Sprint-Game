@@ -24,6 +24,7 @@ let equationsArray = [];
 
 // Time
 let timer;
+let timePlayed = 0;
 
 // Displays Game Page
 function showGamePage() {
