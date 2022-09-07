@@ -51,7 +51,15 @@ function updateBestScore() {
 }
 
 // Reset Game
-function playAgain() {}
+function playAgain() {
+  gamePage.addEventListener('click', startTimer);
+  scorePage.hidden = true;
+  splashPage.hidden = false;
+  equationsArray = [];
+  playerGuessArray = [];
+  valueY = 0;
+  playAgainBtn.hidden = true;
+}
 
 // Show Score Page
 function showScorePage() {
