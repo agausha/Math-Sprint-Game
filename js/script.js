@@ -20,5 +20,8 @@ const playAgainBtn = document.querySelector('.play-again');
 
 // Switch selected input styling
 startForm.addEventListener('click', () => {
-  radioContainers.forEach((radioEl) => {});
+  radioContainers.forEach((radioEl) => {
+    // Remove Selected Label Styling
+    radioEl.classList.remove('selected-label');
+  });
 });
