@@ -34,7 +34,11 @@ let finalTimeDisplay = '0.0';
 let valueY = 0;
 
 // Scroll, Store user selection in playerGuessArray
-function select(guessedTrue) {}
+function select(guessedTrue) {
+  // Scroll 80 more pixels
+  valueY += 80;
+  itemContainer.scroll(0, valueY);
+}
 
 // Displays Game Page
 function showGamePage() {
