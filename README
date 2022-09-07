@@ -9,3 +9,7 @@ Instructions
 - The timer will stop when you select the last answer and take you to the score page
 - You have 0.5s penality score for every incorrect answer
 - Your best score is store in LocalStorage
+
+Live Preview Link
+
+https://mathsprintgamesite.netlify.app/
