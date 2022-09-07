@@ -67,7 +67,19 @@ function createEquations() {
 }
 
 // Add Equations to DOM
-function equationsToDOM() {}
+function equationsToDOM() {
+  equationsArray.forEach((equation) => {
+    // Item
+    const item = document.createElement('div');
+    item.classList.add('item');
+    // Equation Text
+    const equationText = document.createElement('h1');
+    equationText.textContent = equation.value;
+    // Append
+    item.appendChild(equationText);
+    itemContainer.appendChild(item);
+  });
+}
 
 
 // Displays 5, 4, 3, 2, 1, GO!
