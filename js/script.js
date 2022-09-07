@@ -15,3 +15,4 @@ const itemContainer = document.querySelector('.item-container');
 // Score Page
 const finalTimeEl = document.querySelector('.final-time');
 const baseTimeEl = document.querySelector('.base-time');
+const penaltyTimeEl = document.querySelector('.penalty-time');
