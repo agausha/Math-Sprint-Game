@@ -24,6 +24,7 @@ let questionAmount = 0;
 // Displays 5, 4, 3, 2, 1, GO!
 function countdownStart() {
   let count = 5;
+  countdown.textContent = count;
 }
 
 // Navigate from Splash Page to CountdownPage to Game Page
