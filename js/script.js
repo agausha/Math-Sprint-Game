@@ -36,7 +36,17 @@ let finalTimeDisplay = '0.0';
 let valueY = 0;
 
 // Check Local Storage for Best Scores, Set bestScoreArray
-function getSavedBestScores() {}
+function getSavedBestScores() {
+  if (localStorage.getItem('bestScores')) {
+    bestScoreArray = JSON.parse(localStorage.bestScores);
+  } else {
+    bestScoreArray = [
+      { questions: 10, bestScore: finalTimeDisplay },
+      { questions: 25, bestScore: finalTimeDisplay },
+      { questions: 50, bestScore: finalTimeDisplay },
+      { questions: 99, bestScore: finalTimeDisplay },
+    ];
+}
 
 // Update Best Score Array
 function updateBestScore() {
