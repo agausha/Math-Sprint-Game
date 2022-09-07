@@ -46,6 +46,8 @@ function getSavedBestScores() {
       { questions: 50, bestScore: finalTimeDisplay },
       { questions: 99, bestScore: finalTimeDisplay },
     ];
+    localStorage.setItem('bestScores', JSON.stringify(bestScoreArray));
+  }
 }
 
 // Update Best Score Array
