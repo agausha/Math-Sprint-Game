@@ -12,3 +12,5 @@ const bestScores = document.querySelectorAll('.best-score-value');
 const countdown = document.querySelector('.countdown');
 // Game Page
 const itemContainer = document.querySelector('.item-container');
+// Score Page
+const finalTimeEl = document.querySelector('.final-time');
