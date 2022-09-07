@@ -66,6 +66,9 @@ function createEquations() {
   shuffle(equationsArray);
 }
 
+// Add Equations to DOM
+function equationsToDOM() {}
+
 
 // Displays 5, 4, 3, 2, 1, GO!
 function countdownStart() {
