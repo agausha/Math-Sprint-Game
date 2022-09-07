@@ -34,7 +34,9 @@ let finalTimeDisplay = '0.0';
 let valueY = 0;
 
 // Add a tenth of a second to timePlayed
-function addTime() {}
+function addTime() {
+  timePlayed += 0.1;
+}
 
 // Start timer when game page is clicked
 function startTimer() {
