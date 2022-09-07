@@ -25,6 +25,17 @@ let questionAmount = 0;
 function countdownStart() {
   let count = 5;
   countdown.textContent = count;
+  const timeCountDown = setInterval(() => {
+    count--;
+    if (count === 0) {
+      countdown.textContent = 'GO!';
+    } else if (count === -1) {
+      showGamePage();
+      clearInterval(timeCountDown);
+    } else {
+      countdown.textContent = count;
+    }
+  }, 1000);
 }
 
 // Navigate from Splash Page to CountdownPage to Game Page
