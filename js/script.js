@@ -74,6 +74,8 @@ function updateBestScore() {
   });
   // Update Splash Page
   bestScoresToDOM();
+  // Save to Local Storage
+  localStorage.setItem('bestScores', JSON.stringify(bestScoreArray));
 }
 
 // Reset Game
