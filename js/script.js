@@ -97,6 +97,10 @@ function populateGamePage() {
   // Create Equations, Build Elements in DOM
   createEquations();
   equationsToDOM();
+  // Set Blank Space Below
+  const bottomSpacer = document.createElement('div');
+  bottomSpacer.classList.add('height-500');
+  itemContainer.appendChild(bottomSpacer);
 }
 
 
