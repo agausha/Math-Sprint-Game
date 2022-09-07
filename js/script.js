@@ -36,6 +36,7 @@ let valueY = 0;
 // Add a tenth of a second to timePlayed
 function addTime() {
   timePlayed += 0.1;
+  checkTime();
 }
 
 // Start timer when game page is clicked
