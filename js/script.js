@@ -88,6 +88,9 @@ function populateGamePage() {
   // Spacer
   const topSpacer = document.createElement('div');
   topSpacer.classList.add('height-240');
+   // Selected Item
+   const selectedItem = document.createElement('div');
+   selectedItem.classList.add('selected-item');
 }
 
 
