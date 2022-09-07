@@ -33,6 +33,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Start timer when game page is clicked
+function startTimer() {}
+
 // Scroll, Store user selection in playerGuessArray
 function select(guessedTrue) {
   // Scroll 80 more pixels
