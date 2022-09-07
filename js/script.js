@@ -19,4 +19,6 @@ const penaltyTimeEl = document.querySelector('.penalty-time');
 const playAgainBtn = document.querySelector('.play-again');
 
 // Switch selected input styling
-startForm.addEventListener('click', () => {});
+startForm.addEventListener('click', () => {
+  radioContainers.forEach((radioEl) => {});
+});
