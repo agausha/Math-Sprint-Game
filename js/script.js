@@ -48,6 +48,7 @@ function getSavedBestScores() {
     ];
     localStorage.setItem('bestScores', JSON.stringify(bestScoreArray));
   }
+  bestScoresToDOM();
 }
 
 // Update Best Score Array
