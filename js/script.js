@@ -49,6 +49,7 @@ function checkTime() {
     });
     finalTime = timePlayed + penaltyTime;
     console.log('time:', timePlayed, 'penalty:', penaltyTime, 'final:', finalTime);
+    scoresToDOM();
   }
 }
 
