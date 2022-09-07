@@ -22,6 +22,9 @@ const playAgainBtn = document.querySelector('.play-again');
 let questionAmount = 0;
 let equationsArray = [];
 
+// Time
+let timer;
+
 // Displays Game Page
 function showGamePage() {
   gamePage.hidden = false;
