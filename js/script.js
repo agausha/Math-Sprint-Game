@@ -29,6 +29,7 @@ function getRadioValue() {
       radioValue = radioInput.value;
     }
   });
+  return radioValue;
 }
 
 // Form that decides amount of Questions
