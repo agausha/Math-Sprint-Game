@@ -33,6 +33,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Update Best Score Array
+function updateBestScore() {}
+
 // Show Score Page
 function showScorePage() {
   // Show Play Again button after 1 second delay
