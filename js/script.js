@@ -30,6 +30,7 @@ function countdownStart() {
 function showCountdown() {
   countdownPage.hidden = false;
   splashPage.hidden = true;
+  countdownStart();
 }
 
 // Get the value from selected radio button
