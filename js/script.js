@@ -22,6 +22,7 @@ const playAgainBtn = document.querySelector('.play-again');
 let questionAmount = 0;
 let equationsArray = [];
 let playerGuessArray = [];
+let bestScoreArray = [];
 
 // Time
 let timer;
