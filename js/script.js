@@ -21,6 +21,9 @@ const playAgainBtn = document.querySelector('.play-again');
 // Equations
 let questionAmount = 0;
 
+// Displays Game Page
+function showGamePage() {}
+
 // Displays 5, 4, 3, 2, 1, GO!
 function countdownStart() {
   let count = 5;
