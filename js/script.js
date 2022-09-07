@@ -29,7 +29,9 @@ function showGamePage() {
 }
 
 // Get Random Number up to a certain amount
-function getRandomInt(max) {}
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
 
 // Displays 5, 4, 3, 2, 1, GO!
 function countdownStart() {
