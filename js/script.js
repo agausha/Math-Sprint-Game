@@ -35,6 +35,7 @@ function getRadioValue() {
 // Form that decides amount of Questions
 function selectQuestionAmount(e) {
   e.preventDefault();
+  questionAmount = getRadioValue();
 }
 
 // Switch selected input styling
