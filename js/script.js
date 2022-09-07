@@ -81,6 +81,9 @@ function equationsToDOM() {
   });
 }
 
+// Dynamically adding correct/incorrect equations
+function populateGamePage() {}
+
 
 // Displays 5, 4, 3, 2, 1, GO!
 function countdownStart() {
