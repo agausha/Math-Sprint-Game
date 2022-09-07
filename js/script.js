@@ -36,7 +36,12 @@ let finalTimeDisplay = '0.0';
 let valueY = 0;
 
 // Refresh Splash Page Best Scores
-function bestScoresToDOM() {}
+function bestScoresToDOM() {
+  bestScores.forEach((bestScore, index) => {
+    const bestScoreEl = bestScore;
+    bestScoreEl.textContent = `${bestScoreArray[index].bestScore}s`;
+  });
+}
 
 // Check Local Storage for Best Scores, Set bestScoreArray
 function getSavedBestScores() {
