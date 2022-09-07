@@ -10,3 +10,5 @@ const radioInputs = document.querySelectorAll('input');
 const bestScores = document.querySelectorAll('.best-score-value');
 // Countdown Page
 const countdown = document.querySelector('.countdown');
+// Game Page
+const itemContainer = document.querySelector('.item-container');
