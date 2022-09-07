@@ -43,6 +43,7 @@ function scoresToDOM() {
   finalTimeEl.textContent = `${finalTimeDisplay}s`;
   // Scroll to Top, go to Score Page
   itemContainer.scrollTo({ top: 0, behavior: 'instant' });
+  showScorePage();
 }
 
 // Stop Timer, Process Results, go to Score Page
