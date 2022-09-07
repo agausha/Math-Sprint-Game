@@ -29,3 +29,6 @@ startForm.addEventListener('click', () => {
     }
   });
 });
+
+// Event Listeners
+startForm.addEventListener('submit', selectQuestionAmount);
