@@ -307,3 +307,6 @@ startForm.addEventListener('click', () => {
 // Event Listeners
 gamePage.addEventListener('click', startTimer);
 startForm.addEventListener('submit', selectQuestionAmount);
+
+// On Load
+getSavedBestScores();
