@@ -22,7 +22,9 @@ const playAgainBtn = document.querySelector('.play-again');
 let questionAmount = 0;
 
 // Displays Game Page
-function showGamePage() {}
+function showGamePage() {
+  gamePage.hidden = false;
+}
 
 // Displays 5, 4, 3, 2, 1, GO!
 function countdownStart() {
