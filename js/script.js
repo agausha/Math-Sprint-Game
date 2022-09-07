@@ -16,3 +16,4 @@ const itemContainer = document.querySelector('.item-container');
 const finalTimeEl = document.querySelector('.final-time');
 const baseTimeEl = document.querySelector('.base-time');
 const penaltyTimeEl = document.querySelector('.penalty-time');
+const playAgainBtn = document.querySelector('.play-again');
