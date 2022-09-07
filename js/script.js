@@ -34,7 +34,14 @@ let finalTimeDisplay = '0.0';
 let valueY = 0;
 
 // Show Score Page
-function showScorePage() {}
+function showScorePage() {
+  // Show Play Again button after 1 second delay
+  setTimeout(() => {
+    playAgainBtn.hidden = false;
+  }, 1000);
+  gamePage.hidden = true;
+  scorePage.hidden = false;
+}
 
 // Format & Display Time in DOM
 function scoresToDOM() {
