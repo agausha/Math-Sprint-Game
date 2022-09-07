@@ -24,6 +24,7 @@ let questionAmount = 0;
 // Navigate from Splash Page to CountdownPage to Game Page
 function showCountdown() {
   countdownPage.hidden = false;
+  splashPage.hidden = true;
 }
 
 // Get the value from selected radio button
