@@ -72,6 +72,8 @@ function updateBestScore() {
       }
     }
   });
+  // Update Splash Page
+  bestScoresToDOM();
 }
 
 // Reset Game
