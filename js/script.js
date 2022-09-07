@@ -85,6 +85,9 @@ function equationsToDOM() {
 function populateGamePage() {
   // Reset DOM, Set Blank Space Above
   itemContainer.textContent = '';
+  // Spacer
+  const topSpacer = document.createElement('div');
+  topSpacer.classList.add('height-240');
 }
 
 
