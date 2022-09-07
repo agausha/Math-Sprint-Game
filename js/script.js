@@ -34,7 +34,16 @@ let finalTimeDisplay = '0.0';
 let valueY = 0;
 
 // Format & Display Time in DOM
-function scoresToDOM() {}
+function scoresToDOM() {
+  finalTimeDisplay = finalTime.toFixed(1);
+  baseTime = timePlayed.toFixed(1);
+  penaltyTime = penaltyTime.toFixed(1);
+  baseTimeEl.textContent = `Base Time: ${baseTime}s`;
+  penaltyTimeEl.textContent = `Penalty: +${penaltyTime}s`;
+  finalTimeEl.textContent = `${finalTimeDisplay}s`;
+  // Scroll to Top, go to Score Page
+  itemContainer.scrollTo({ top: 0, behavior: 'instant' });
+}
 
 // Stop Timer, Process Results, go to Score Page
 function checkTime() {
