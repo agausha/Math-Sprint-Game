@@ -97,12 +97,12 @@ function populateGamePage() {
   // Create Equations, Build Elements in DOM
   createEquations();
   equationsToDOM();
+
   // Set Blank Space Below
   const bottomSpacer = document.createElement('div');
   bottomSpacer.classList.add('height-500');
   itemContainer.appendChild(bottomSpacer);
 }
-
 
 // Displays 5, 4, 3, 2, 1, GO!
 function countdownStart() {
@@ -125,6 +125,7 @@ function countdownStart() {
 function showCountdown() {
   countdownPage.hidden = false;
   splashPage.hidden = true;
+  populateGamePage();
   countdownStart();
 }
 
