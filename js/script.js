@@ -28,6 +28,7 @@ let timePlayed = 0;
 let baseTime = 0;
 let penaltyTime = 0;
 let finalTime = 0;
+let finalTimeDisplay = '0.0';
 
 // Displays Game Page
 function showGamePage() {
