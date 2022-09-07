@@ -33,6 +33,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Format & Display Time in DOM
+function scoresToDOM() {}
+
 // Stop Timer, Process Results, go to Score Page
 function checkTime() {
   console.log(timePlayed);
