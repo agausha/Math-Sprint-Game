@@ -19,7 +19,9 @@ const penaltyTimeEl = document.querySelector('.penalty-time');
 const playAgainBtn = document.querySelector('.play-again');
 
 // Form that decides amount of Questions
-function selectQuestionAmount(e) {}
+function selectQuestionAmount(e) {
+  e.preventDefault();
+}
 
 // Switch selected input styling
 startForm.addEventListener('click', () => {
