@@ -24,6 +24,7 @@ let questionAmount = 0;
 // Get the value from selected radio button
 function getRadioValue() {
   let radioValue;
+  radioInputs.forEach((radioInput) => {});
 }
 
 // Form that decides amount of Questions
