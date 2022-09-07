@@ -38,6 +38,8 @@ function select(guessedTrue) {
   // Scroll 80 more pixels
   valueY += 80;
   itemContainer.scroll(0, valueY);
+  // Add player guess to array
+  return guessedTrue ? playerGuessArray.push('true') : playerGuessArray.push('false');
 }
 
 // Displays Game Page
