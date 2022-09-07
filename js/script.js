@@ -33,6 +33,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Stop Timer, Process Results, go to Score Page
+function checkTime() {}
+
 // Add a tenth of a second to timePlayed
 function addTime() {
   timePlayed += 0.1;
