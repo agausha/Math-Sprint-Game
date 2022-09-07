@@ -24,6 +24,7 @@ let questionAmount = 0;
 // Displays Game Page
 function showGamePage() {
   gamePage.hidden = false;
+  countdownPage.hidden = true;
 }
 
 // Displays 5, 4, 3, 2, 1, GO!
