@@ -8,3 +8,5 @@ const startForm = document.getElementById('start-form');
 const radioContainers = document.querySelectorAll('.radio-container');
 const radioInputs = document.querySelectorAll('input');
 const bestScores = document.querySelectorAll('.best-score-value');
+// Countdown Page
+const countdown = document.querySelector('.countdown');
