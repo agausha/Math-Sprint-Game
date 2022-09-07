@@ -43,6 +43,9 @@ function selectQuestionAmount(e) {
   e.preventDefault();
   questionAmount = getRadioValue();
   console.log('question amount:', questionAmount);
+  if (questionAmount) {
+    showCountdown();
+  }
 }
 
 // Switch selected input styling
