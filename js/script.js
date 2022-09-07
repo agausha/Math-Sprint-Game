@@ -35,6 +35,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Refresh Splash Page Best Scores
+function bestScoresToDOM() {}
+
 // Check Local Storage for Best Scores, Set bestScoreArray
 function getSavedBestScores() {
   if (localStorage.getItem('bestScores')) {
