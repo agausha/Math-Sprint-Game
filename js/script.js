@@ -33,6 +33,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Show Score Page
+function showScorePage() {}
+
 // Format & Display Time in DOM
 function scoresToDOM() {
   finalTimeDisplay = finalTime.toFixed(1);
