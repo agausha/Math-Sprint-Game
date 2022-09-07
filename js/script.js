@@ -21,6 +21,9 @@ const playAgainBtn = document.querySelector('.play-again');
 // Equations
 let questionAmount = 0;
 
+// Get the value from selected radio button
+function getRadioValue() {}
+
 // Form that decides amount of Questions
 function selectQuestionAmount(e) {
   e.preventDefault();
