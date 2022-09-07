@@ -14,3 +14,4 @@ const countdown = document.querySelector('.countdown');
 const itemContainer = document.querySelector('.item-container');
 // Score Page
 const finalTimeEl = document.querySelector('.final-time');
+const baseTimeEl = document.querySelector('.base-time');
