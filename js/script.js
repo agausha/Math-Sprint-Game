@@ -48,6 +48,9 @@ function updateBestScore() {
   });
 }
 
+// Reset Game
+function playAgain() {}
+
 // Show Score Page
 function showScorePage() {
   // Show Play Again button after 1 second delay
