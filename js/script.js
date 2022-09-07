@@ -24,6 +24,12 @@ let equationsArray = [];
 let playerGuessArray = [];
 let bestScoreArray = [];
 
+// Game Page
+let firstNumber = 0;
+let secondNumber = 0;
+let equationObject = {};
+const wrongFormat = [];
+
 // Time
 let timer;
 let timePlayed = 0;
