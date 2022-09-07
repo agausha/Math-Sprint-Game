@@ -25,7 +25,9 @@ let questionAmount = 0;
 function getRadioValue() {
   let radioValue;
   radioInputs.forEach((radioInput) => {
-    if (radioInput.checked) {}
+    if (radioInput.checked) {
+      radioValue = radioInput.value;
+    }
   });
 }
 
