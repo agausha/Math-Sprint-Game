@@ -33,6 +33,9 @@ let finalTimeDisplay = '0.0';
 // Scroll
 let valueY = 0;
 
+// Scroll, Store user selection in playerGuessArray
+function select(guessedTrue) {}
+
 // Displays Game Page
 function showGamePage() {
   gamePage.hidden = false;
